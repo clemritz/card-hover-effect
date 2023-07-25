@@ -1,18 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import rafaLogo from './rafaLogo.png';
+import aoPicture from './ao.jpeg';
+import rgPicture from './rg.jpeg';
+import wimbledonPicture from './wimbledon.jpeg';
+import usPicture from './us.webp';
+
 function Rafa() {
   return (
     <div className="container">
-      <div className="nav">
-        <div className="nav-item">
-          <img src="logo.svg" id="logo-rafa" alt="Rafa Logo" />
-        </div>
+      <div className="nav-item">
+        <img src={rafaLogo} id="logo-rafa" alt="Rafa Logo" />
       </div>
       <div className="items">
         <div className="item">
           <div className="item-wrapper">
-            <img src="ao.jpeg" alt="Rafa at Australian Open" />
+            <img src={aoPicture} alt="Rafa at Australian Open" />
             <div className="img-overlay"></div>
             <div className="item-copy">
               <div className="item-name">
@@ -24,7 +28,7 @@ function Rafa() {
         </div>
         <div className="item">
           <div className="item-wrapper">
-            <img src="rg.jpeg" alt="Rafa at Roland Garros" />
+            <img src={rgPicture} alt="Rafa at Roland Garros" />
             <div className="img-overlay"></div>
             <div className="item-copy">
               <div className="item-name">
@@ -36,7 +40,7 @@ function Rafa() {
         </div>
         <div className="item">
           <div className="item-wrapper">
-            <img src="wimbledon.jpeg" alt="Rafa at Wimbledon" />
+            <img src={wimbledonPicture} alt="Rafa at Wimbledon" />
             <div className="img-overlay"></div>
             <div className="item-copy">
               <div className="item-name">
@@ -48,7 +52,7 @@ function Rafa() {
         </div>
         <div className="item">
           <div className="item-wrapper">
-            <img src="us.webp" alt="Rafa at US Open" />
+            <img src={usPicture} alt="Rafa at US Open" />
             <div className="img-overlay"></div>
             <div className="item-copy">
               <div className="item-name">
